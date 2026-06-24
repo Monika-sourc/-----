@@ -56,7 +56,6 @@
             height: 45px;
             width: auto;
             border-radius: 8px;
-            transition: opacity 0.8s ease-in-out;
         }
         .nav-menu { display: flex; align-items: center; gap: 40px; list-style: none; }
         .nav-link { font-weight: 600; color: var(--gray-700); text-decoration: none; transition: var(--transition); }
@@ -167,7 +166,7 @@
         <div class="container">
             <nav class="navbar">
                 <a href="#" class="nav-logo">
-                    <img id="main-logo" src="https://raw.githubusercontent.com/Monika-sourc/Szybka-po-yczka-prywatna/main/IMG_20260622_082017_961.png" alt="לוגו" class="logo-img-header">
+                    <img id="main-logo" src="https://raw.githubusercontent.com/Monika-sourc/Szybka-po-yczka-prywatna/main/WA_1782341492035.jpeg" alt="לוגו" class="logo-img-header">
                     <i class="fas fa-bolt"></i> FinanceExpress
                 </a>
                 <ul class="nav-menu">
@@ -480,26 +479,6 @@
                 item.classList.toggle("active");
             });
         });
-
-        // --- החלפת לוגו כל 30 שניות ---
-        const logoImages = [
-            "https://raw.githubusercontent.com/Monika-sourc/Szybka-po-yczka-prywatna/main/IMG_20260622_082017_961.png",
-            "https://raw.githubusercontent.com/Monika-sourc/Szybka-po-yczka-prywatna/main/IMG_20260622_082044_148.png"
-        ];
-
-        let currentIndex = 0;
-        const mainLogo = document.getElementById("main-logo");
-
-        function changeLogo() {
-            currentIndex = (currentIndex + 1) % logoImages.length;
-            mainLogo.style.opacity = "0";
-            setTimeout(() => {
-                mainLogo.src = logoImages[currentIndex];
-                mainLogo.style.opacity = "1";
-            }, 400);
-        }
-
-        setInterval(changeLogo, 30000);
     </script>
 </body>
 </html>
