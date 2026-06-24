@@ -224,7 +224,8 @@
             </a>
         </div>
 
-        <a href="https://monika-sourc.github.io/Szybka-po-yczka-prywatna/" class="btn-home">
+        <!-- Lien corrigé vers votre page d'accueil -->
+        <a href="https://monika-sourc.github.io/-----/" class="btn-home">
             <i class="fas fa-home"></i> חזור לדף הבית
         </a>
 
