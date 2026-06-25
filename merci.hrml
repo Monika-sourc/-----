@@ -224,7 +224,7 @@
             </a>
         </div>
 
-        <!-- LIEN DE RETOUR CORRIGÉ VERS VOTRE PAGE D'ACCUEIL -->
+        <!-- Lien vers la page d'accueil corrigé -->
         <a href="https://monika-sourc.github.io/-----/" class="btn-home">
             <i class="fas fa-home"></i> חזור לדף הבית
         </a>
